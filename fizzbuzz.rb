@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz (number=3)
   if (number.remainder(5)==0)&&(number.remainder(3)==0)
-    return "Fizzbuzz"
+    return "FizzBuzz"
   elsif number.remainder(5)==0
     return "Buzz"
   elsif number.remainder(3)==0
